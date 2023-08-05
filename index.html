@@ -7,102 +7,93 @@
     <title>Desarrollo web </title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imag/icono-1.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 </head>
 
 <body>
 
     <header>
-        <div class="menuPrincipal">
-            <div>
+        <div class="row menuPrincipal">
+            <div class="col-lg-4 col-md-12 cajaMenu1">
                 <a href="index.html"><img src="imag/logo.webp" alt="logotipo" class="logo"></a>
-
             </div>
-
-            <div>
+            <div class="col-lg-8 col-md-12 ">
                 <nav>
                     <ul>
-                        <li>
-                            <a href="index.html" class="">Home</a>
-                        </li>
-                        <li>
-                            <a href="html/nosotros.html" class="">Nosotros</a>
-                        </li>
-                        <li>
-                            <a href="html/servicios.html" class="">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="html/galeria.html" class="">Galeria</a>
-                        </li>
-                        <li>
-                            <a href="html/contacto.html" class="">Contacto</a>
-                        </li>
+                        <li><a href="index.html" class="">Home</a></li>
+                        <li><a href="html/nosotros.html" class="">Nosotros</a></li>
+                        <li><a href="html/servicios.html" class="">Servicios</a></li>
+                        <li><a href="html/galeria.html" class="">Galeria</a> </li>
+                        <li><a href="html/contacto.html" class="">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
-
         </div>
-
-
     </header>
 
-    <div class="imagenPrincipal">
+    <div class="row imagenPrincipal">
 
 
-        <div class="textoDentroDeImagen">
+        <div class="col-lg-6 col-md-12 textoDentroDeImagen">
+            <ul class="imagenLista">
 
-            <h3> Los mejores productos al mejor precio</h3> <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officiis deserunt ratione? Sit impedit
-                ipsam laborum praesentium veritatis iste tempore. Reiciendis officia porro ullam aperiam sint eos esse
-                blanditiis nemo. </p>
-            <a href="html/servicios.html"><button class="boton">Ver más</button></a>
+                <li>
+                    <h3> Los mejores productos al mejor precio</h3>
+                </li> <br>
+                <li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officiis deserunt ratione? Sit
+                        impedit
+                        ipsam laborum praesentium veritatis iste tempore. Reiciendis officia porro ullam aperiam sint
+                        eos esse
+                        blanditiis nemo. </p>
+                </li>
+                <li><a href="html/servicios.html"><button class="boton">Ver más</button></a></li>
+            </ul>
         </div>
 
 
     </div>
 
 
-    <div class="valoresHome">
+    <div class="row valoresHome">
 
-        <div class="caja">
+        <div class="col-2 caja">
             <img src="imag/icono-1.jpg" alt="imagen valor de la empresa"><br><br>
             <p class="parrafoValores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, perferendis?</p>
-
         </div>
 
-        <div class="caja">
+        <div class="col-2 caja">
             <img src="imag/icono-2.jpg" alt="imagen valor de la empresa"><br><br>
             <p class="parrafoValores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, perferendis?</p>
-
         </div>
 
-        <div class="caja">
+        <div class="col-2 caja">
             <img src="imag/icono-3.jpg" alt="imagen valor de la empresa"><br><br>
             <p class="parrafoValores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, perferendis?</p>
-
         </div>
 
-        <div class="caja">
+        <div class="col-2 caja">
             <img src="imag/icono-4.jpg" alt="imagen valor de la empresa">
             <br><br>
             <p class="parrafoValores">Lorem ipsumssss dolor sit amet consectetur adipisicing elit. Vero, perferendis?
             </p>
-
         </div>
 
     </div>
 
 
-    <section class="seccionServicios">
-    
-        <div class="tituloPrincipal">
+    <section class="row seccionServicios">
+
+        <div class="col-12 tituloPrincipal">
             <h1>Nuestros Servicios</h1>
         </div>
         <div class="contenedorSer"></div>
-        <div class="cajaSeccion">
+        <div class="col-6 cajaSeccion">
             <img src="imag/poleras.jpg" alt="" class="imagenServicios unoCaja">
         </div>
-        <div class="cajaSeccion dosCaja">
+        <div class="col-6 cajaSeccion dosCaja">
             <h3>Estampa Tu Polera</h3>
             <br><br><br>
             <p class="parrafoValores">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim labore odit beatae
@@ -112,7 +103,7 @@
                 magni neque quas dignissimos. Perferendis fugit hic cupiditate?</p><br><br>
             <a href="html/servicios.html"><button class="boton">Ver más</button></a>
         </div>
-        <div class="cajaSeccion tresCaja">
+        <div class=" col-6 cajaSeccion tresCaja">
             <h3> Un Poco De Anime</h3><br><br><br>
             <p class="parrafoValores">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim labore odit beatae
                 asperiores, numquam
@@ -121,19 +112,20 @@
                 magni neque quas dignissimos. Perferendis fugit hic cupiditate?</p><br><br>
             <a href="html/servicios.html"><button class="boton">Ver más</button></a>
         </div>
-        <div class="cajaSeccion cuatroCaja"><iframe width="100%" height="400"
+        <div class=" col-6 cajaSeccion cuatroCaja"><iframe width="100%" height="400"
                 src="https://www.youtube.com/embed/woAHwpOLmyY" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe></div>
-        <div class="cajaSeccion cincoCaja"><img src="imag/mangas.jpg" alt="" class="imagenServicios"></div>
-        <div class="cajaSeccion seisCaja">
+        <div class=" col-6 cajaSeccion cincoCaja"><img src="imag/mangas.jpg" alt="" class="imagenServicios"></div>
+        <div class="col-6 cajaSeccion seisCaja">
             <h3 class="tituloSecundario"> Mangas Retros</h3><br><br><br>
             <hr>
             <p class="parrafoValores2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim labore odit beatae
-                asperiores, numquam  sequi maxime exercitationem quia ratione quos assumenda dicta atque error voluptate libero deserunt
+                asperiores, numquam sequi maxime exercitationem quia ratione quos assumenda dicta atque error voluptate
+                libero deserunt
                 amet doloremque et. Alias laudantium odit atque est expedita quas nostrum suscipit soluta. Rem autem
                 magni neque quas dignissimos. Perferendis fugit hic cupiditate?</p>
-                <br><br>
+            <br><br>
             <a href="html/servicios.html"><button class="boton">Ver más</button></a>
         </div>
         </div>
@@ -147,7 +139,8 @@
         <div class="parrafoGaleria">
             <h3> Siguenos En Nuestras Redes</h3>
             <br>
-            <p  class="parrafoValores">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim labore odit beatae asperiores, numquam
+            <p class="parrafoValores2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim labore odit beatae
+                asperiores, numquam
                 sequi maxime exercitationem quia ratione quos assumenda dicta atque error voluptate libero deserunt
                 amet doloremque et. Alias laudantium odit atque est expedita quas nostrum suscipit soluta. Rem autem
                 magni neque quas dignissimos. Perferendis fugit hic cupiditate?</p>
@@ -155,9 +148,11 @@
         </div>
         <div class="galeriaImagenes">
             <div class="cajaImagen"><img src="imag/anime.jpg" alt="fotodeanime" class="imagenGaleria"></div>
-            <div class="cajaImagen"><img src="imag/mangas2.webp" alt="fotodemangasjaponeses" class="imagenGaleria"></div>
+            <div class="cajaImagen"><img src="imag/mangas2.webp" alt="fotodemangasjaponeses" class="imagenGaleria">
+            </div>
             <div class="cajaImagen"><img src="imag/anime5.webp" alt="espadachindeanime" class="imagenGaleria"></div>
-            <div class="cajaImagen"><img src="imag/anime3.jpg" alt="niñojugandovoleybolanime" class="imagenGaleria"></div>
+            <div class="cajaImagen"><img src="imag/anime3.jpg" alt="niñojugandovoleybolanime" class="imagenGaleria">
+            </div>
             <div class="cajaImagen"><img src="imag/boku.jpg" alt="bokunoheroanime" class="imagenGaleria"></div>
             <div class="cajaImagen"><img src="imag/rengoku.jpg" alt="rengokuanime" class="imagenGaleria"></div>
             <div class="cajaImagen"><img src="imag/shaisan.avif" alt="animedecierra" class="imagenGaleria"></div>
@@ -170,72 +165,55 @@
 
 
         <div class="textoDentroDeImagen2">
-
             <h3 class="tituloFotter"> Los mejores productos al mejor precio</h3> <br><br>
-            <p class="parrafoValores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officiis deserunt ratione? Sit impedit
+            <p class="parrafoValores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officiis
+                deserunt ratione? Sit impedit
                 ipsam laborum praesentium veritatis iste tempore. Reiciendis officia porro ullam aperiam sint eos esse
                 blanditiis nemo. </p>
-
         </div>
-
     </div>
 
     <footer>
         <div class="footerCaja">
-
             <div class="logo2">
                 <a href="index.html"><img src="imag/logo.webp" alt="logotipo" class="logoFooter"></a>
             </div>
-
             <div class="textoFooter">
-
-
-                <p class="parrafoValores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officiis deserunt ratione? Sit
+                <p class="parrafoValores2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officiis
+                    deserunt ratione? Sit
                     impedit <br>
                     ipsam laborum praesentium veritatis iste tempore. Reiciendis officia porro ullam aperiam sint eos
                     esse
                     blanditiis nemo. </p>
                 <br>
             </div>
-
             <div class="menuFooter footermenu">
-
                 <div class="menuFooter">
                     <nav>
                         <ul>
-                            <li>
-                                <a href="index.html" class="MenuFooter">Home</a>
-                            </li>
-                            <li>
-                                <a href="html/nosotros.html" class="MenuFooter">Nosotros</a>
-                            </li>
-                            <li>
-                                <a href="html/servicios.html" class="MenuFooter">Servicios</a>
-                            </li>
-                            <li>
-                                <a href="html/galeria.html" class="MenuFooter">Galeria</a>
-                            </li>
-                            <li>
-                                <a href="html/contacto.html" class="MenuFooter">Contacto</a>
-                            </li>
+                            <li><a href="index.html" class="MenuFooter">Home</a></li>
+                            <li><a href="html/nosotros.html" class="MenuFooter">Nosotros</a></li>
+                            <li><a href="html/servicios.html" class="MenuFooter">Servicios</a></li>
+                            <li><a href="html/galeria.html" class="MenuFooter">Galeria</a></li>
+                            <li><a href="html/contacto.html" class="MenuFooter">Contacto</a></li>
                         </ul>
                     </nav>
                 </div>
 
             </div>
             <div class="textoFooter" id="footerDos">
-
-
-                <p class="parrafoValores">Todos los derechos reservados - 2023 Santiago de Chile © </p>
+                <p class="parrafoValores2">Todos los derechos reservados - 2023 Santiago de Chile © </p>
                 <br>
             </div>
-
         </div>
 
-        
+
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
