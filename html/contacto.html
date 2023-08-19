@@ -1,47 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desarrollo web </title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../imag/icono-1.jpg" type="image/x-icon">
+    <meta name="description"
+        content="pagina de slamdunk, anime, videos y series de anime, basquetball anime, anime del weno">
+    <title>Slam Dunk </title>
+    <link rel="shortcut icon" href="imag/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    
 </head>
 
 <body>
 
-    <header>
-        <div class="menuPrincipal">
-            <div>
-                <a href="../index.html"><img src="../imag/logo.webp" alt="logotipo" class="logo"></a>
-
+    <header class="row navbar sticky-top">
+            <div class="col-lg-3 logotipo">
+                <a href="../index.html"><img src="../imag/logo.png" alt="logotipo" class="logo"></a>
             </div>
-
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="../index.html" class="">Home</a>
-                        </li>
-                        <li>
-                            <a href="../html/nosotros.html" class="">Nosotros</a>
-                        </li>
-                        <li>
-                            <a href="../html/servicios.html" class="">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="../html/galeria.html" class="">Galeria</a>
-                        </li>
-                        <li>
-                            <a href="../html/contacto.html" class="">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
+            <div class="col-lg-9">
+                <nav class="navbar sticky-top">
+                    <div class="container-fluid menu">
+                      <ul class="menu-lista">
+                        <li><a class="navbar-brand menUnidad" href="../index.html">Home</a></li>
+                        <li><a class="navbar-brand menUnidad" href="historia.html">Historia</a></li>
+                        <li><a class="navbar-brand menUnidad" href="serie.html">Serie</a></li>
+                        <li><a class="navbar-brand menUnidad" href="pelicula.html">Pelicula</a> </li>
+                        <li><a class="navbar-brand menUnidad" href="contacto.html">Contacto</a></li>
+                      </ul>
+                    </div>
+                  </nav>
             </div>
-
-        </div>
-
     </header>
 
     <div class="imagenPrincipalCinco">
@@ -189,7 +181,101 @@
         </div>
 
     </footer>
+ <!-- Footer -->
+ <footer class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-around p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block fraseFooter">
+            <span>Sígueme en mi redes sociales para ver todos mis proyectos</span>
+        </div>
+        <!-- Left -->
 
+        <!-- Right -->
+        <div class="redesFooter">
+            <a href="https://www.facebook.com/profile.php?id=100009612913582" class="me-4 link-secondary"><i
+                    class="bi bi-facebook"></i>
+
+                <a href="https://wa.me/56979702762" class="me-4 link-secondary"><i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/patricio.creativo/" class="me-4 link-secondary">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/patricio-g%C3%B3mez-vega-5737871a3/"
+                    class="me-4 link-secondary">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/PatricioLokasoo/" class="me-4 link-secondary">
+                    <i class="bi bi-github"></i>
+                </a>
+        </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 caja1footer">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                         Nosotros
+                    </h6>
+                    <p>
+                        Esperamos que este sitio web sea de provecho para ti y puedas disfrutar todos sobre este
+                        increíble anime.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 caja2footer">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Secciones
+                    </h6>
+                    <p>
+                        <a href="/html/historia.html" class="text-reset">Historia</a>
+                    </p>
+                    <p>
+                        <a href="/html/serie.html" class="text-reset">Serie</a>
+                    </p>
+                    <p>
+                        <a href="/html/pelicula.html" class="text-reset">Pelicula</a>
+                    </p>
+                    <p>
+                        <a href="html/contacto.html" class="text-reset">Contacto</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4  caja3footer">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4"> Contacto</h6>
+                    <p><i class="bi bi-geo-alt-fill"></i> Santiago de Chile</p>
+                    <p><a href="mailto:patriciogomezv25@gmail.com"><i class="bi bi-envelope-at"></i> patriciogomezv25@gmail.com</a></p>
+                    <p> <a href="tel:56979702762"><i class="bi bi-telephone-plus"></i> + 569 7970 2762</a></p>
+                    <p> <a href="https://creativoweb.cl"><i class="bi bi-browser-chrome"></i> Creativoweb.cl</a></p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="html/contacto.html">SlamDunk.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
 
 </html>
