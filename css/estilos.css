@@ -4,10 +4,9 @@
 }
 
 body {
-  background-image: url("../imag/bg.jpg");
   background-position: center;
   background-repeat: repeat;
-  background-color: rgba(0, 0, 0, 0.836);
+  background-color: rgb(255, 255, 255);
   font-family: sans-serif;
   justify-content: center;
   align-items: center;
@@ -76,13 +75,7 @@ header .menUnidad:hover {
   color: rgb(255, 255, 255);
 }
 
-footer {
-  width: 100%;
-  position: absolute;
-  bottom: 1px;
-  left: 0px;
-}
-footer .redesFooter a {
+.redesFooter a {
   text-decoration: none;
   font-size: 25px;
 }
@@ -105,6 +98,65 @@ footer .redesFooter a {
     width: 65%;
     text-align: left;
   }
+}
+.container-fluid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "banner banner banner" "textoHistoria textoHistoria imagen";
+}
+
+.banner {
+  grid-area: banner;
+  width: 100vw;
+  height: 400px;
+  background-image: url("/imag/fondo4.jpg");
+  background-attachment: fixed;
+  background-position: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.856);
+}
+
+.textoHistoria {
+  grid-area: textoHistoria;
+  padding: 80px 150px;
+  height: 400px;
+}
+
+.imagen {
+  grid-area: imagen;
+  height: 400px;
+}
+.imagen .riota {
+  z-index: 999;
+  width: 600px;
+  position: relative;
+  right: 250px;
+  bottom: 300px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.7fr 1.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "bannercontacto bannercontacto" "formulariocontacto textocontacto";
+}
+
+.bannercontacto {
+  grid-area: bannercontacto;
+}
+
+.formulariocontacto {
+  grid-area: formulariocontacto;
+}
+
+.textocontacto {
+  grid-area: textocontacto;
 }
 
 /*# sourceMappingURL=estilos.css.map */
