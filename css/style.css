@@ -334,7 +334,7 @@ section div h1 {
 
 /* ------------- imagen final ----------------- */
 
-.imagenFinal {
+/* .imagenFinal {
   width: 100vw;
   height: auto;
   padding: 7% 7%;
@@ -360,7 +360,7 @@ section div h1 {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-} */
+}  */
 
 /* ----------footer --------------- */
 /* 
@@ -418,7 +418,7 @@ section div h1 {
 
 /* ------------------- responsive --------------- */
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
   header nav ul li a {
     display: none;
   }
@@ -453,7 +453,7 @@ section div h1 {
     align-items: center;
     justify-content: center;
   }
-} */
+}  */
 
 /* @media (max-width: 600px) {
   .caja {
@@ -961,4 +961,4 @@ left: 30px;
 
       .menuFlotante {
 display: none;
-    }}  */ */
+    }}  */ 
