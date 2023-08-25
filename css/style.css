@@ -18,6 +18,9 @@ body {
   overflow-x: hidden;
 }
 
+.seccion{
+  padding: 60px 0px !important;
+}
 /* ------------- boton -------------- */
 
 .boton {
@@ -31,7 +34,7 @@ body {
   -moz-border-radius: 24px;
   -ms-border-radius: 24px;
   -o-border-radius: 24px;
-  border: #050505 0px solid;
+  border: #d4d4d4 1px solid;
 }
 
 .boton:hover {
@@ -238,28 +241,67 @@ width: 40%;
 ::::::::::::::::::::::::::::::::::::::::: */
 
 .seccionDos{
-  width: 100vw;
+  width: 100%;
   height: auto;
-  padding: 50px;
-  margin: 10px;
+  padding: 30px;
+  margin: auto;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: center;
-  border:1px rgb(90, 72, 72) solid;
-  background-color: red;
+
 }
 
 
 .caja2 {
-  background-color: #ffffff;
+
   padding: 50px;
   margin: 10px;
   border-radius: 23px;
-  border:1px red solid;
+  align-items: center;
 } 
 
+.tituloServi{
+  text-align: center;
+}
 
+.parrafoSer{
+  position: relative;
+  top:80px;
+}
+
+
+/* -- SECCION galería
+::::::::::::::::::::::::::::::::::::::::: */
+
+.seccionTres{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+.tituloGaleria{
+  text-align: center;
+}
+
+.imagenga {
+
+  max-width: 100%;
+  max-height:200px ;
+
+  margin: 5px;
+  border-radius: 23px;
+} 
+@media (max-width: 600px) {
+.cajaGaleria3{
+  display: none;
+}}
 
 
 /* ------------------ seccion galeria -------------- */
