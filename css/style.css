@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-size: 1rem;
+  border: 1px red solid;
 }
 
 /* estilos para el cuerpo del home
@@ -16,10 +17,11 @@ body {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
+  position: relative;
 }
 
 .seccion{
-  padding: 60px 0px !important;
+  padding: 20px 0px !important;
 }
 /* ------------- boton -------------- */
 
@@ -243,7 +245,7 @@ width: 40%;
 .seccionDos{
   width: 100%;
   height: auto;
-  padding: 30px;
+  padding: 0px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -255,21 +257,32 @@ width: 40%;
 
 .caja2 {
 
-  padding: 50px;
-  margin: 10px;
+  padding: 20px;
+  margin: 0px;
   border-radius: 23px;
   align-items: center;
 } 
 
+@media (max-width: 600px) {
+  .caja2{
+    position: relative;
+    top:0px;
+  }}
+
 .tituloServi{
   text-align: center;
+  margin: 0px 0px;
 }
 
 .parrafoSer{
   position: relative;
   top:80px;
 }
-
+@media (max-width: 600px) {
+.parrafoSer{
+  position: relative;
+  top:0px;
+}}
 
 /* -- SECCION galería
 ::::::::::::::::::::::::::::::::::::::::: */
@@ -302,6 +315,50 @@ width: 40%;
 .cajaGaleria3{
   display: none;
 }}
+
+/* -- SECCION footer
+::::::::::::::::::::::::::::::::::::::::: */
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #222222;
+  margin: auto;
+  color: #ffffff;
+}
+.footerIn{
+  margin-top: 50px;
+}
+
+.menuFooter{
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none;
+}
+.cajaSecciones{
+  position: relative;
+  right: 27px;
+}
+.Cajainformaciones{
+  position: relative;
+  right: 26px;
+}
+.menuRedes{
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  margin: 5px;
+  position: relative;
+  right: 16px;
+}
+
+.caja1{
+  padding: 30px 30px;
+}
+
+
 
 
 /* ------------------ seccion galeria -------------- */
