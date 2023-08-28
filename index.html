@@ -29,80 +29,92 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a href="index.html" class="nav-link active menubar">Home</a></li>
-            <li class="nav-item"><a href="html/nosotros.html" class="nav-link active menubar">Nosotros</a></li>
-            <li class="nav-item"><a href="html/servicios.html" class="nav-link active menubar">Servicios</a> </li>
-            <li class="nav-item"><a href="html/galeria.html" class="nav-link active menubar">Galeria</a></li>
-            <li class="nav-item"><a href="html/contacto.html" class="nav-link active menubar">Contacto</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link active menubar menuSub">Home</a></li>
+            <li class="nav-item"><a href="html/nosotros.html" class="nav-link active menubar menuSub">Nosotros</a></li>
+            <li class="nav-item"><a href="html/servicios.html" class="nav-link active menubar menuSub">Servicios</a> </li>
+            <li class="nav-item"><a href="html/galeria.html" class="nav-link active menubar menuSub">Galeria</a></li>
+            <li class="nav-item"><a href="html/contacto.html" class="nav-link active menubar menuSub">Contacto</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="bg-pan-left"></div>  <!-- barra de colores esta bajo el menu -->
+    <div class="bg-pan-left"></div> <!-- barra de colores esta bajo el menu -->
   </header>
 
   <main>
     <!-- SLIDER PRINCIPAL
 ::::::::::::::::::::::::::::::::::::::::: -->
-<section>
-  <div class="margen"></div>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <section>
+      <div class="margen"></div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="https://images.alphacoders.com/101/1014357.jpg" class="d-block w-100 banner"
+              alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="imag/principal.png" class="d-block w-100 banner" alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="https://images.alphacoders.com/748/748861.jpg" class="d-block w-100 banner"
+              alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="imag/anime5.webp" class="d-block w-100 banner" alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="imag/boku.jpg" class="d-block w-100 banner" alt="foto de equipo de basket">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="4000">
-          <img src="https://images.alphacoders.com/101/1014357.jpg" class="d-block w-100 banner"
-            alt="foto de equipo de basket">
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="imag/principal.png" class="d-block w-100 banner" alt="foto de equipo de basket">
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="https://images.alphacoders.com/748/748861.jpg" class="d-block w-100 banner"
-            alt="foto de equipo de basket">
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="imag/anime5.webp" class="d-block w-100 banner" alt="foto de equipo de basket">
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="imag/boku.jpg" class="d-block w-100 banner" alt="foto de equipo de basket">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
+    </section>
     <!-- SECCION valores
 ::::::::::::::::::::::::::::::::::::::::: -->
     <section class="seccion">
       <div class="container-fluid seccionUno">
         <div class="row">
           <div class="col caja"><img src="imag/icono-1.jpg" alt="imagen valor de la empresa"><br><br>
-            <h5>Experiencia</h5><hr><p>Nos adaptamos a cada proyecto y ofrecemos soluciones creativas y de calidad.</p>
+            <h5>Experiencia</h5>
+            <hr>
+            <p>Nos adaptamos a cada proyecto y ofrecemos soluciones creativas y de calidad.</p>
           </div>
           <div class="col caja"><img src="imag/icono-2.jpg" alt="imagen valor de la empresa"><br><br>
-            <h5>Equipo</h5><hr><p>Trabajamos en equipo con nuestros clientes, brindando asesoramiento y apoyo.
+            <h5>Equipo</h5>
+            <hr>
+            <p>Trabajamos en equipo con nuestros clientes, brindando asesoramiento y apoyo.
               Productos que superan las expectativas.</p>
           </div>
           <div class="col caja"><img src="imag/icono-3.jpg" alt="imagen valor de la empresa"><br><br>
-            <h5>Responsables</h5><hr><p>Entregamos los pedidos en el plazo acordado, sin sacrificar la calidad. Presupuestos
+            <h5>Responsables</h5>
+            <hr>
+            <p>Entregamos los pedidos en el plazo acordado, sin sacrificar la calidad. Presupuestos
               claros y detallados, sin sorpresas.</p>
           </div>
           <div class="col caja"><img src="imag/icono-4.jpg" alt="imagen valor de la empresa">
             <br><br>
-            <h5>Creativos</h5><hr><p>Creamos productos únicos y originales, que se adaptan a las necesidades y gustos de
+            <h5>Creativos</h5>
+            <hr>
+            <p>Creamos productos únicos y originales, que se adaptan a las necesidades y gustos de
               cada cliente.</p>
           </div>
         </div>
@@ -177,21 +189,30 @@
       </div>
       <div class="row seccionTres ">
         <div class="col-lg-3 col-6 cajaGaleria1">
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/1.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/2.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/3.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/1.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/2.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/3.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
 
         </div>
         <div class="col-lg-3 col-6 cajaGaleria2">
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/4.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/5.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/6.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/4.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/5.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/6.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
 
         </div>
         <div class="col-lg-3 col-6 cajaGaleria3">
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/7.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/8.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
-          <a href="/html/servicios.html" class="imgHover"><img src="imag/9.jpg" alt="foto de galeria de anime" class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/7.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/8.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="/html/servicios.html" class="imgHover"><img src="imag/9.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
         </div>
       </div>
     </section>
@@ -202,14 +223,15 @@
   <footer class="seccion ">
     <div class="container">
       <div class="row seccionCuatro">
-        <div class="col-lg-3 col-ms-6 cajaFooter cajafooter caja1">
+        <div> <h5 style="text-align: center; padding: 20px 0px;"> Gracias por visitarnos estaremos atentos para responder todas tus dudas  </h5></div><hr>
+        <div class="col-lg-3 col-ms-6 caja1">
           <h4 class="tituloFooter">Secciones</h4><br>
           <ul class="menuFooter cajaSecciones">
-            <li><p><a href="index.html" class="menuFooter menu">Inicio</a></p></li><hr>
-            <li><p><a href="html/nosotros.html" class="menuFooter menu">Nosotros</a></p></li><hr>
-            <li><p><a href="html/servicios.html" class="menuFooter menu">Servicios</a></p></li><hr>
-            <li><p><a href="html/galeria.html" class="menuFooter menu">Galería</a></p></li><hr>
-            <li><p><a href="html/contacto.html" class="menuFooter menu">Contacto</a></p></li><hr>
+            <li><a href="index.html" class="menuFooter menu menubar">Inicio</a></li>
+            <li><a href="html/nosotros.html" class="menuFooter menu menubar">Nosotros</a></li>
+            <li><a href="html/servicios.html" class="menuFooter menu menubar">Servicios</a></li>
+            <li><a href="html/galeria.html" class="menuFooter menu menubar">Galería</a></li>
+            <li><a href="html/contacto.html" class="menuFooter menu menubar">Contacto</a></li>
           </ul>
         </div>
 
@@ -221,10 +243,18 @@
         <div class="col-lg-3 col-ms-6 cajaFooter caja1">
           <h4 class="tituloFooter">Informaciones</h4><br>
           <ul class="menuFooter Cajainformaciones">
-            <li><p>Cel.: +569 7970 2762</p></li>
-            <li><p>contacto@creativoweb.cl</p></li>
-            <li><p>lunes a viernes de 9:00 - 17:00 hrs.</p></li>
-            <li><p>Dirección: Talagante, Santiago, Chile</p></li>
+            <li>
+              <a href="cel:+56979702762" class="enlace"><p>Cel.: +569 7970 2762</p></a>
+            </li>
+            <li>
+              <a href="mailto:contacto@creativoweb.cl" class="enlace"><p>contacto@creativoweb.cl</p></a>
+            </li>
+            <li>
+              <p>lunes a viernes de 9:00 - 17:00 hrs.</p>
+            </li>
+            <li>
+              <p>Dirección: Talagante, Santiago, Chile</p>
+            </li>
           </ul>
         </div>
         <div class="col-lg-3 col-ms-6 cajaFooter caja1">
