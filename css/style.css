@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   font-size: 1rem; 
+  border: red 1px solid;
+  box-sizing: border-box;
 }
 
 /* estilos para el cuerpo del home
@@ -25,6 +27,18 @@ body {
 .enlace{
   text-decoration:none;
   color: #ffffff;
+}
+
+.img-fluid{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.137);
+
 }
 
 /* ------------- boton -------------- */
@@ -393,6 +407,14 @@ header {
 /* -- SECCION galería
 ::::::::::::::::::::::::::::::::::::::::: */
 
+.galeria {
+  background-image: url(../imag/bgb.jpg);
+  color: #ffffff;
+  padding: 20px 0px;
+}
+.tituloGaleria {
+  text-align: center;
+}
 .seccionTres {
   width: 100%;
   height: auto;
@@ -403,29 +425,22 @@ header {
   flex-flow: row wrap;
   justify-content: center;
 }
-
-.galeria {
-  background-image: url(../imag/bgb.jpg);
-  color: #ffffff;
-  padding: 20px 0px;
+.cajaGaleria1, .cajaGaleria2, .cajaGaleria3{
+  display:block;
+  margin: auto;
 }
-
 .imgHover:hover {
   position: relative;
   bottom: -5px;
 }
-.tituloGaleria {
-  text-align: center;
-}
-
 .imagenga {
   max-width: 100%;
   max-height: 200px;
-  margin: 15px;
+  margin: 10px 0px;
   border-radius: 23px;
   border: #f8f9fa 4px solid;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .cajaGaleria3 {
     display: none;
   }
@@ -570,22 +585,32 @@ footer {
 }
 
 .cajaGaleriaPadre {
+  width: 80%;
   margin-top: 150px;
+  padding: 30px;
+  display: block;
 }
 
 .seccionGaleriaImagenes {
   display: flex;
   direction: row;
   flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .cajaGaleria {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  margin-bottom: 80px;
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+  margin: auto;
+  padding: 30px;
 }
-
+.imgGaleria{
+  width: 250px;
+  height: 170px;
+}
 /* -- PAGINA Servicio
 ::::::::::::::::::::::::::::::::::::::::: */
 
@@ -607,6 +632,7 @@ footer {
 .servicioCaja{
   width: 100%;
   height: 400px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -619,9 +645,13 @@ footer {
   padding: 20px;
 }
 .cajaPadreServi{
-
   padding: 30px;
   text-align: left;
+}
+.cajaPadreServiDos{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .imagenServicio{
@@ -636,6 +666,11 @@ footer {
 .cajaSer1, .cajaSer4, .cajaSer5{
 margin: 100px 0px;
 }
+
+@media (max-width: 600px) {
+  .cajaSer1, .cajaSer4, .cajaSer5{
+    margin: 0px 0px;
+    }}
 /* -- PAGINA contacto
 ::::::::::::::::::::::::::::::::::::::::: */
 
@@ -704,32 +739,32 @@ margin: 100px 0px;
 
 @-webkit-keyframes bg-pan-bottom {
   0% {
-    background-image:linear-gradient(rgba(5, 7, 12, 0.45),
-    rgba(5, 7, 12, 0.85)), url(../imag/9.jpg);
+    background-image:linear-gradient(rgba(5, 7, 12, 0.35),
+    rgba(5, 7, 12, 0.35)), url(../imag/9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
     background-position: center;
   }
   30% {
-    background-image:linear-gradient(rgba(5, 7, 12, 0.45),
-    rgba(5, 7, 12, 0.85)), url(../imag/8.jpg);
+    background-image:linear-gradient(rgba(5, 7, 12, 0.35),
+    rgba(5, 7, 12, 0.35)), url(../imag/8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
     background-position: center;
   }
   70% {
-    background-image:linear-gradient(rgba(5, 7, 12, 0.45),
-    rgba(5, 7, 12, 0.85)), url(../imag/principal.png);
+    background-image:linear-gradient(rgba(5, 7, 12, 0.35),
+    rgba(5, 7, 12, 0.35)), url(../imag/principal.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
     background-position: center;
   }
   100% {
-    background-image:linear-gradient(rgba(5, 7, 12, 0.45),
-    rgba(5, 7, 12, 0.85)), url(../imag/rengoku.jpg);
+    background-image:linear-gradient(rgba(5, 7, 12, 0.35),
+    rgba(5, 7, 12, 0.35)), url(../imag/rengoku.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
