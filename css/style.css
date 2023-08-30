@@ -38,6 +38,7 @@ body {
   -webkit-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.137);
+  object-fit: cover;
 
 }
 
