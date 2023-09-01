@@ -261,12 +261,6 @@ header {
   display: flex;
   justify-content: start;
 }
-
-@media (max-width: 600px) {
-  .menubar:hover {
-    background-color: #f8f9fa;
-  }
-}
 /* -- SECCION footer
   ::::::::::::::::::::::::::::::::::::::::: */
 footer {
