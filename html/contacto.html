@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,181 +6,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="pagina de slamdunk, anime, videos y series de anime, basquetball anime, anime del weno">
-    <title>Slam Dunk </title>
-    <link rel="shortcut icon" href="imag/favicon.png" type="image/x-icon">
+        content="anime, sitioweb de anime, todo en anime, estampado y series de anime, anime en todo chile, tienda de figuras de anime, tienda online de poleras de anime">
+    <title>Contacto - Estampa tu polera con tu personaje favorito</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imag/images.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/estilos.css">
-    
 </head>
 
 <body>
-
-    <header class="row navbar sticky-top">
-            <div class="col-lg-3 logotipo">
-                <a href="../index.html"><img src="../imag/logo.png" alt="logotipo" class="logo"></a>
+    <!-- HEADER menuPrincipal
+::::::::::::::::::::::::::::::::::::::::: -->
+    <header class=" bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid colormenu">
+                <a href="../index.html"><img src="../imag/logo.webp" alt="logotipo" class="navbar-brand logo"></a>
+                <button class="navbar-toggler hamburguer" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="../index.html" class="nav-link active menubar">Home</a></li>
+                        <li class="nav-item"><a href="../html/nosotros.html"
+                                class="nav-link active menubar">Nosotros</a></li>
+                        <li class="nav-item"><a href="../html/servicios.html"
+                                class="nav-link active menubar">Servicios</a></li>
+                        <li class="nav-item"><a href="../html/galeria.html" class="nav-link active menubar">Galeria</a>
+                        </li>
+                        <li class="nav-item"><a href="../html/contacto.html"
+                                class="nav-link active menubar">Contacto</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-9">
-                <nav class="navbar sticky-top">
-                    <div class="container-fluid menu">
-                      <ul class="menu-lista">
-                        <li><a class="navbar-brand menUnidad" href="../index.html">Home</a></li>
-                        <li><a class="navbar-brand menUnidad" href="historia.html">Historia</a></li>
-                        <li><a class="navbar-brand menUnidad" href="serie.html">Serie</a></li>
-                        <li><a class="navbar-brand menUnidad" href="pelicula.html">Pelicula</a> </li>
-                        <li><a class="navbar-brand menUnidad" href="contacto.html">Contacto</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-            </div>
+        </nav>
+        <div class="bg-pan-left"></div>  <!-- barra de colores esta bajo el menu -->
     </header>
+    <main class="fondo">
+        <section class="bg-pan-bottom">
+            <div class="contacto">  
+               <div class="row formPadre fade-in-fwd">
+                      <div class="col-lg-8 col-ms-10 formHijo">
 
+                        <h3>Formulario de contacto</h3><br>
+                        <p>Llene los campos con la información requerida y su comentario o consulta, responderemos en
+                            breve.</p>
+                        
+                        <form class="formu">
 
-    <div class="container">
-        <div class="bannercontacto"></div>
-        <div class="formulariocontacto"><div class="cajaContacto unoContacto">
-            <h3>Formulario de contacto</h3><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Necessitatibus, cupiditate!</p>
-            <br>
-            <form class="formu">
-
-                <input type="text" name="" id="nombre" placeholder="Nombre" class="formulario"><br><br>
-
-                <input type="text" name="" id="Apellido" placeholder="Apellido" class="formulario"><br><br>
-
-                <input type="tel" name="" id="Telefono" placeholder="Telefono" class="formulario"><br><br>
-
-                <input type="email" name="" id="Email" placeholder="Email" class="formulario"><br><br>
-
-                <textarea type="text" name="mensaje" id="Mensaje" cols="30" rows="6" placeholder="Mensaje"
-                    class="formulario"></textarea>
-
-                <br><br>
-                <input type="submit" class="boton">
-                <input type="reset" class="boton">
-            </form>
-        </div></div>
-        <div class="textocontacto"><div class="cajaContacto dosContacto">
-            <h3>Gracias por comunicarte</h3><br>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime officiis similique saepe facere quia
-                exercitationem corporis nemo asperiores adipisci est vitae, soluta veritatis doloribus ad ipsum hic quod
-                totam mollitia assumenda labore in. Debitis ab laudantium at molestiae quasi doloribus beatae iusto
-                ipsam, dignissimos aperiam reiciendis, placeat animi nisi. Laudantium!</p>
-        </div></div>
-      </div>
-
-
-
-   
-        <div class="">
-
+                            <input type="text" name="" id="nombre" placeholder="Nombre" class="formulario"><br><br>
+                            <input type="text" name="" id="Apellido" placeholder="Apellido" class="formulario"><br><br>
+                            <input type="tel" name="" id="Telefono" placeholder="Telefono" class="formulario"><br><br>
+                            <input type="email" name="" id="Email" placeholder="Email" class="formulario"><br><br>
+                            <textarea type="text" name="mensaje" id="Mensaje" cols="30" rows="6" placeholder="Mensaje"
+                                class="formulario"></textarea>
+                            <br>
+                            <input type="submit" class="boton">
+                            <input type="reset" class="boton">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13319.141792701936!2d-70.61532899474831!3d-33.428837555538635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf427e748537%3A0x20613f0197df689b!2sSky%20Costanera!5e0!3m2!1ses!2scl!4v1689367693956!5m2!1ses!2scl"
                 width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
-
     </div>
-
-
- <!-- Footer -->
- <footer class="text-center text-lg-start bg-white text-muted">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-around p-4 border-bottom">
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block fraseFooter">
-            <span>Sígueme en mi redes sociales para ver todos mis proyectos</span>
-        </div>
-        <!-- Left -->
-
-        <!-- Right -->
-        <div class="redesFooter">
-            <a href="https://www.facebook.com/profile.php?id=100009612913582" class="me-4 link-secondary"><i
-                    class="bi bi-facebook"></i>
-
-                <a href="https://wa.me/56979702762" class="me-4 link-secondary"><i class="bi bi-whatsapp"></i>
-                </a>
-                <a href="https://www.instagram.com/patricio.creativo/" class="me-4 link-secondary">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/patricio-g%C3%B3mez-vega-5737871a3/"
-                    class="me-4 link-secondary">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="https://github.com/PatricioLokasoo/" class="me-4 link-secondary">
-                    <i class="bi bi-github"></i>
-                </a>
-        </div>
-        <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Links  -->
-    <section class="">
-        <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 caja1footer">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                         Nosotros
-                    </h6>
-                    <p>
-                        Esperamos que este sitio web sea de provecho para ti y puedas disfrutar todos sobre este
-                        increíble anime.
-                    </p>
+    </main>
+    <!-- FOOTER PRINCIPAL
+::::::::::::::::::::::::::::::::::::::::: -->
+    <footer class="seccion">
+        <div class="container">
+            <div class="row seccionCuatro">
+                <div class="col-lg-3 col-ms-6 cajaFooter cajafooter caja1">
+                    <h4 class="tituloFooter">Secciones</h4><br>
+                    <ul class="menuFooter cajaSecciones">
+                        <li><a href="../index.html" class="menuFooter menu menubar">Inicio</a></li>
+                        <li><a href="../html/nosotros.html" class="menuFooter menu menubar">Nosotros</a></li>
+                        <li><a href="../html/servicios.html" class="menuFooter menu menubar">Servicios</a></li>
+                        <li><a href="../html/galeria.html" class="menuFooter menu menubar">Galería</a></li>
+                        <li><a href="../html/contacto.html" class="menuFooter menu menubar">Contacto</a></li>
+                      </ul>
                 </div>
-                <!-- Grid column -->
 
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 caja2footer">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Secciones
-                    </h6>
-                    <p>
-                        <a href="/html/historia.html" class="text-reset">Historia</a>
-                    </p>
-                    <p>
-                        <a href="/html/serie.html" class="text-reset">Serie</a>
-                    </p>
-                    <p>
-                        <a href="/html/pelicula.html" class="text-reset">Pelicula</a>
-                    </p>
-                    <p>
-                        <a href="html/contacto.html" class="text-reset">Contacto</a>
-                    </p>
+                <div class="col-lg-3 col-ms-6 cajaFooter caja1">
+                    <h4 class="tituloFooter">Nuestra Empresa</h4><br>
+                    <p class="parrafooter">Agradecemos todos sus comentarios y sugerencias, pues gracias a ellos podemos
+                        seguir
+                        mejorando nuestro servicio y atención, para brindar lo mejor a nuestros clientes.</p>
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4  caja3footer">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4"> Contacto</h6>
-                    <p><i class="bi bi-geo-alt-fill"></i> Santiago de Chile</p>
-                    <p><a href="mailto:patriciogomezv25@gmail.com"><i class="bi bi-envelope-at"></i> patriciogomezv25@gmail.com</a></p>
-                    <p> <a href="tel:56979702762"><i class="bi bi-telephone-plus"></i> + 569 7970 2762</a></p>
-                    <p> <a href="https://creativoweb.cl"><i class="bi bi-browser-chrome"></i> Creativoweb.cl</a></p>
+                <div class="col-lg-3 col-ms-6 cajaFooter caja1">
+                    <h4 class="tituloFooter">Informaciones</h4><br>
+                    <ul class="menuFooter Cajainformaciones">
+                        <li>
+                            <a href="cel:+56979702762" class="enlace"><p>Cel.: +569 7970 2762</p></a>
+                        </li>
+                        <li>
+                          <a href="mailto:contacto@creativoweb.cl" class="enlace"><p>contacto@creativoweb.cl</p></a>
+                        </li>
+                        <li>
+                            <p>lunes a viernes de 9:00 - 17:00 hrs.</p>
+                        </li>
+                        <li>
+                            <p>Dirección: Talagante, Santiago, Chile</p>
+                        </li>
+                    </ul>
                 </div>
-                <!-- Grid column -->
+                <div class="col-lg-3 col-ms-6 cajaFooter caja1">
+                    <h4 class="tituloFooter">Sígueme</h4><br>
+                    <p class="parrafooter">Queremos que estes al tanto de todos nuestros trabajos y diseños, te
+                        invitamos a
+                        conocer nuestras redes sociales</p>
+                    <ul class="menuRedes">
+                        <li><a href="#" class="menuRedes"><i class="bi bi-facebook menuRedes"></i></a></li>
+                        <li><a href="#" class="menuRedes"><i class="bi bi-instagram menuRedes"></i></a></li>
+                        <li><a href="#" class="menuRedes"><i class="bi bi-linkedin menuRedes"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <!-- Grid row -->
+            <div class="col-lg-12 justify-items-center">
+                <h6 class="text-center footerIn">
+                    <hr>Todos los derechos reservados 2023 - Desarrollo web <a href="https://creativoweb.cl">Patricio
+                        Gómez</a>
+                    </h5>
+            </div>
         </div>
-    </section>
-    <!-- Section: Links  -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="html/contacto.html">SlamDunk.com</a>
-    </div>
-    <!-- Copyright -->
-</footer>
-<!-- Footer -->
 </body>
 
 </html>

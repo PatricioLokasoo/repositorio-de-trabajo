@@ -2,142 +2,288 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="pagina de slamdunk, anime, videos y series de anime, basquetball anime, anime del weno">
-    <title>Slam Dunk </title>
-    <link rel="shortcut icon" href="imag/favicon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="anime, sitioweb de anime, todo en anime, estampado y series de anime, anime en todo chile, tienda de figuras de anime, tienda online de poleras de anime">
+  <title>Home - Estampa tu polera con tu personaje favorito </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="imag/images.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 </head>
 
-<body class="container-fluid">
-
-    <header class="row navbar sticky-top">
-        <div class="col-lg-3 logotipo">
-            <a href="index.html"><img src="imag/logo.png" alt="logotipo" class="logo"></a>
+<body>
+  <!-- HEADER menuPrincipal
+::::::::::::::::::::::::::::::::::::::::: -->
+  <header class=" bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid colormenu">
+        <a href="index.html"><img src="imag/logo.webp" alt="logotipo" class="navbar-brand logo"></a>
+        <button class="navbar-toggler hamburguer" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a href="index.html" class="nav-link active menubar menuSub">Home</a></li>
+            <li class="nav-item"><a href="html/nosotros.html" class="nav-link active menubar menuSub">Nosotros</a></li>
+            <li class="nav-item"><a href="html/servicios.html" class="nav-link active menubar menuSub">Servicios</a> </li>
+            <li class="nav-item"><a href="html/galeria.html" class="nav-link active menubar menuSub">Galeria</a></li>
+            <li class="nav-item"><a href="html/contacto.html" class="nav-link active menubar menuSub">Contacto</a></li>
+          </ul>
         </div>
-        <div class="col-lg-9">
-            <nav class="navbar sticky-top">
-                <div class="container-fluid menu">
-                    <ul class="menu-lista">
-                        <li><a class="navbar-brand menUnidad" href="index.html">Home</a></li>
-                        <li><a class="navbar-brand menUnidad" href="html/Historia.html">Historia</a></li>
-                        <li><a class="navbar-brand menUnidad" href="html/Serie.html">Serie</a></li>
-                        <li><a class="navbar-brand menUnidad" href="html/Pelicula.html">Pelicula</a> </li>
-                        <li><a class="navbar-brand menUnidad" href="html/contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </nav>
+      </div>
+    </nav>
+    <div class="bg-pan-left"></div> <!-- barra de colores esta bajo el menu -->
+
+
+
+
+
+    
+  </header>
+
+  <main>
+    <!-- SLIDER PRINCIPAL
+::::::::::::::::::::::::::::::::::::::::: -->
+    <section>
+      <div class="margen"></div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
         </div>
-    </header>
-
-    <main class="container-fluid">
-
-        
-
-    </main>
-    <!-- Footer -->
-    <footer class="text-center text-lg-start bg-white text-muted">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-around p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block fraseFooter">
-                <span>Sígueme en mi redes sociales para ver todos mis proyectos</span>
-            </div>
-            <!-- Left -->
-    
-            <!-- Right -->
-            <div class="redesFooter">
-                <a href="https://www.facebook.com/profile.php?id=100009612913582" class="me-4 link-secondary"><i
-                        class="bi bi-facebook"></i>
-    
-                    <a href="https://wa.me/56979702762" class="me-4 link-secondary"><i class="bi bi-whatsapp"></i>
-                    </a>
-                    <a href="https://www.instagram.com/patricio.creativo/" class="me-4 link-secondary">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/patricio-g%C3%B3mez-vega-5737871a3/"
-                        class="me-4 link-secondary">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/PatricioLokasoo/" class="me-4 link-secondary">
-                        <i class="bi bi-github"></i>
-                    </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-    
-        <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
-                <div class="row mt-3">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 caja1footer">
-                        <!-- Content -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                             Nosotros
-                        </h6>
-                        <p>
-                            Esperamos que este sitio web sea de provecho para ti y puedas disfrutar todos sobre este
-                            increíble anime.
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-    
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 caja2footer">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Secciones
-                        </h6>
-                        <p>
-                            <a href="/html/historia.html" class="text-reset">Historia</a>
-                        </p>
-                        <p>
-                            <a href="/html/serie.html" class="text-reset">Serie</a>
-                        </p>
-                        <p>
-                            <a href="/html/pelicula.html" class="text-reset">Pelicula</a>
-                        </p>
-                        <p>
-                            <a href="html/contacto.html" class="text-reset">Contacto</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-    
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4  caja3footer">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4"> Contacto</h6>
-                        <p><i class="bi bi-geo-alt-fill"></i> Santiago de Chile</p>
-                        <p><a href="mailto:patriciogomezv25@gmail.com"><i class="bi bi-envelope-at"></i> patriciogomezv25@gmail.com</a></p>
-                        <p> <a href="tel:56979702762"><i class="bi bi-telephone-plus"></i> + 569 7970 2762</a></p>
-                        <p> <a href="https://creativoweb.cl"><i class="bi bi-browser-chrome"></i> Creativoweb.cl</a></p>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
-    
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="html/contacto.html">SlamDunk.com</a>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="https://images.alphacoders.com/101/1014357.jpg" class="d-block w-100 banner"
+              alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="imag/principal.png" class="d-block w-100 banner" alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="https://images.alphacoders.com/748/748861.jpg" class="d-block w-100 banner"
+              alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="imag/anime5.webp" class="d-block w-100 banner" alt="foto de equipo de basket">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="imag/boku.jpg" class="d-block w-100 banner" alt="foto de equipo de basket">
+          </div>
         </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- SECCION valores
+::::::::::::::::::::::::::::::::::::::::: -->
+    <section class="seccion">
+      <div class="container-fluid seccionUno">
+        <div class="row">
+          <div class="col caja"><img src="imag/icono-1.jpg" alt="imagen valor de la empresa"><br><br>
+            <h5>Experiencia</h5>
+            <hr>
+            <p>Nos adaptamos a cada proyecto y ofrecemos soluciones creativas y de calidad.</p>
+          </div>
+          <div class="col caja"><img src="imag/icono-2.jpg" alt="imagen valor de la empresa"><br><br>
+            <h5>Equipo</h5>
+            <hr>
+            <p>Trabajamos en equipo con nuestros clientes, brindando asesoramiento y apoyo.
+              Productos que superan las expectativas.</p>
+          </div>
+          <div class="col caja"><img src="imag/icono-3.jpg" alt="imagen valor de la empresa"><br><br>
+            <h5>Responsables</h5>
+            <hr>
+            <p>Entregamos los pedidos en el plazo acordado, sin sacrificar la calidad. Presupuestos
+              claros y detallados, sin sorpresas.</p>
+          </div>
+          <div class="col caja"><img src="imag/icono-4.jpg" alt="imagen valor de la empresa">
+            <br><br>
+            <h5>Creativos</h5>
+            <hr>
+            <p>Creamos productos únicos y originales, que se adaptan a las necesidades y gustos de
+              cada cliente.</p>
+          </div>
+        </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    </body>
-    
-    </html>
+    <!-- SECCION servicios
+::::::::::::::::::::::::::::::::::::::::: -->
+    <section class="seccion">
+      <div class="container-fluid">
+        <div class="row seccionDos">
+          <div class="col-lg-8 col-sm-10 tituloServi">
+            <div>
+              <h3>Nuestros Servicios</h3>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-10 caja2"><img src="imag/10.jpg" alt="" class="img-fluid"></div>
+          <div class="col-lg-5 col-sm-10 caja2">
+            <div class="parrafoSer">
+              <h3>Estampa Tu Polera</h3>
+              <br>
+              <p>¿Te gusta el anime? ¿Quieres lucir una polera original y divertida? En nuestra empresa de estampado, te
+                ofrecemos el mejor servicio de estampado de anime en poleras. Solo tienes que elegir tu personaje
+                favorito
+                y el diseño que más te guste. Te garantizamos calidad, rapidez y buen precio. ¡No esperes más y pide la
+                tuya ya!</p><br>
+              <a href="html/servicios.html" class="boton">Ver más</a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-10 caja2">
+            <div class="parrafoSer">
+              <h3>Tu personaje favorito siempre contigo</h3>
+              <br>
+              <p>¿Eres fanático del anime? ¿Quieres un llavero único y personalizado? En nuestra empresa de estampado,
+                te
+                ofrecemos el mejor servicio de estampado de anime en llaveros. Elige tu personaje favorito y el diseño
+                que
+                más te guste. Te entregamos un llavero de calidad, rápido y a buen precio. ¡No lo dudes y pide el tuyo
+                ya!
+              </p><br>
+              <a href="html/servicios.html" class="boton">Ver más</a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-10 caja2"><img src="imag/llaveros.webp" alt="" class="img-fluid"></div>
+          <div class="col-lg-5 col-sm-10 caja2"><img src="imag/fg.jpg" alt="" class="img-fluid "></div>
+          <div class="col-lg-5 col-sm-10 caja2">
+            <div class="parrafoSer">
+              <h3>Las mejores figuras</h3>
+              <br>
+              <p>Si te gusta el anime, te encantarán nuestras figuras coleccionables hechas con resina. Son figuras de
+                alta calidad, con detalles y colores increíbles. Tenemos una gran variedad de personajes y diseños para
+                que elijas el que más te guste. Son el regalo perfecto para ti o para alguien especial. ¡Pide la tuya
+                ya!
+              </p><br>
+              <a href="html/servicios.html" class="boton">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION galería
+::::::::::::::::::::::::::::::::::::::::: -->
+    <section class="seccion galeria">
+      <div class="container-fluid"></div>
+      <div class="col-lg-12">
+        <div style="text-align: center; padding: 0px 30px;">
+          <h3 class="tituloGaleria"><br> ¿Te gustaría personalizar tu ropa con diseños únicos y originales?</h3>
+          <p>Con nuestros servicios de estampado en ropa, puedes crear camisetas, sudaderas, gorras y más con tu propio
+            estilo. <br> Puedes elegir entre una gran
+            variedad de colores, tamaños, tejidos y técnicas de impresión para obtener el resultado que deseas.</p>
+        </div>
+      </div>
+      <div class="row container seccionTres ">
+        <div class="col-lg-3 col-6 cajaGaleria1">
+          <a href="html/servicios.html" class="imgHover"><img src="imag/1.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="html/servicios.html" class="imgHover"><img src="imag/2.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="html/servicios.html" class="imgHover"><img src="imag/3.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+
+        </div>
+        <div class="col-lg-3 col-6 cajaGaleria2">
+          <a href="html/servicios.html" class="imgHover"><img src="imag/4.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="html/servicios.html" class="imgHover"><img src="imag/5.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="html/servicios.html" class="imgHover"><img src="imag/6.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+
+        </div>
+        <div class="col-lg-3 col-6 cajaGaleria3">
+          <a href="html/servicios.html" class="imgHover"><img src="imag/7.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="html/servicios.html" class="imgHover"><img src="imag/8.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+          <a href="html/servicios.html" class="imgHover"><img src="imag/9.jpg" alt="foto de galeria de anime"
+              class="img-fluid imagenga"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER PRINCIPAL
+::::::::::::::::::::::::::::::::::::::::: -->
+  <footer class="seccion ">
+    <div class="container">
+      <div class="row seccionCuatro">
+        <div> <h5 style="text-align: center; padding: 20px 0px;"> Gracias por visitarnos estaremos atentos para responder todas tus dudas  </h5></div><hr>
+        <div class="col-lg-3 col-ms-6 caja1">
+          <h4 class="tituloFooter">Secciones</h4><br>
+          <ul class="menuFooter cajaSecciones">
+            <li><a href="index.html" class="menuFooter menu menubar">Inicio</a></li>
+            <li><a href="html/nosotros.html" class="menuFooter menu menubar">Nosotros</a></li>
+            <li><a href="html/servicios.html" class="menuFooter menu menubar">Servicios</a></li>
+            <li><a href="html/galeria.html" class="menuFooter menu menubar">Galería</a></li>
+            <li><a href="html/contacto.html" class="menuFooter menu menubar">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-ms-6 cajaFooter caja1">
+          <h4 class="tituloFooter">Nuestra Empresa</h4><br>
+          <p class="parrafooter">Agradecemos todos sus comentarios y sugerencias, pues gracias a ellos podemos seguir
+            mejorando nuestro servicio y atención, para brindar lo mejor a nuestros clientes.</p>
+        </div>
+        <div class="col-lg-3 col-ms-6 cajaFooter caja1">
+          <h4 class="tituloFooter">Informaciones</h4><br>
+          <ul class="menuFooter Cajainformaciones">
+            <li>
+              <a href="cel:+56979702762" class="enlace"><p>Cel.: +569 7970 2762</p></a>
+            </li>
+            <li>
+              <a href="mailto:contacto@creativoweb.cl" class="enlace"><p>contacto@creativoweb.cl</p></a>
+            </li>
+            <li>
+              <p>lunes a viernes de 9:00 - 17:00 hrs.</p>
+            </li>
+            <li>
+              <p>Dirección: Talagante, Santiago, Chile</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-ms-6 cajaFooter caja1">
+          <h4 class="tituloFooter">Sígueme</h4><br>
+          <p class="parrafooter">Queremos que estes al tanto de todos nuestros trabajos y diseños, te invitamos a
+            conocer nuestras redes sociales</p>
+          <ul class="menuRedes">
+            <li><a href="#" class="menuRedes"><i class="bi bi-facebook menuRedes"></i></a></li>
+            <li><a href="#" class="menuRedes"><i class="bi bi-instagram menuRedes"></i></a></li>
+            <li><a href="#" class="menuRedes"><i class="bi bi-linkedin menuRedes"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-12 justify-items-center">
+        <h6 class="text-center footerIn">
+          <hr>Todos los derechos reservados 2023 - Desarrollo web <a href="https://creativoweb.cl">Patricio Gómez</a>
+          </h5>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

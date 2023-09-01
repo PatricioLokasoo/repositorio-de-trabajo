@@ -1,25 +1,46 @@
-  .redesFooter a {
+/* -- SECCION footer
+  ::::::::::::::::::::::::::::::::::::::::: */
+  
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #222222;
+    margin: auto;
+    color: #ffffff;
+  }
+  .footerIn {
+    margin-top: 50px;
+  }
+  
+  .menuFooter {
     text-decoration: none;
-    font-size: 25px;
+    color: #ffffff;
+    list-style: none;
   }
-
-
-@media screen and (max-width: 768px) {
-  .caja1footer {
-    overflow-x: hidden;
-    width: 90%;
-    text-align: left;
-  }
-  .caja2footer {
-    overflow-x: hidden;
-    width: 25%;
-    text-align: left;
+  .menu:hover {
     position: relative;
-    left: 10px;
+    left: 5px;
   }
-  .caja3footer {
-    overflow-x: hidden;
-    width: 65%;
-    text-align: left;
+  
+  .cajaSecciones {
+    position: relative;
+    right: 27px;
   }
-}
+  .Cajainformaciones {
+    position: relative;
+    right: 26px;
+  }
+  .menuRedes {
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    margin: 5px;
+    position: relative;
+    right: 16px;
+  }
+  
+  .caja1 {
+    padding: 30px 30px;
+  }
