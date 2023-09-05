@@ -1,0 +1,92 @@
+/* ------------estilos globales------------ */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem; 
+  /* border: red 1px solid; */
+  box-sizing: border-box;
+}
+
+/* estilos para el cuerpo del home
+ :::::::::::::::::::::::::::::::::::::::::*/
+body {
+  background-image: url("../imag/bg.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.836);
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+
+.seccion {
+  padding: 20px 0px !important;
+}
+
+.enlace{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.img-fluid{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.137);
+  object-fit: cover;
+
+}
+
+/* ------------- boton -------------- */
+
+.boton {
+  background-color: $color-boton-claro;
+  width: 130px;
+  height: 50px;
+  padding: 2% 5%;
+  margin: 20px 0px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border: #d4d4d4 1px solid;
+  text-decoration: none;
+}
+
+.boton:hover {
+  padding: 2% 5%;
+  margin: 20px 0px;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 7px 24px -8px rgba(0, 0, 0, 0.137);
+}
+
+.boton:not(:hover) {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+h1, h2, h3{
+  color: $color-fuente-titulo;
+}
+}

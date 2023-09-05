@@ -1,0 +1,113 @@
+@media (max-width: 600px) {
+  .logo {
+    width: 50%;
+    position: relative;
+    left: 110px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .menu-lista {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-item {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    width: 100vw;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    margin: 145px 20px;
+    border-radius: 99px;
+  }
+}
+@media (max-width: 600px) {
+  .caja2 {
+    position: relative;
+    top: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .parrafoSer {
+    position: relative;
+    top: 0px;
+  }
+}
+@media (max-width: 1000px) {
+  .cajaGaleria3 {
+    display: none;
+  }
+}
+
+/* -- PAGINA nosotros
+  :::::::::::::::::::::::::::::::::::::::::
+  :::::::::::::::::::::::::::::::::::::::::
+  ::::::::::::::::::::::::::::::::::::::::: */
+
+@media (max-width: 1200px) {
+  .imgNoso1,
+  .imgNoso3 {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .imgNoso2 {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    z-index: 8;
+  }
+}
+/* -- PAGINA Servicio
+  :::::::::::::::::::::::::::::::::::::::::
+  :::::::::::::::::::::::::::::::::::::::::
+  ::::::::::::::::::::::::::::::::::::::::: */
+
+@media (max-width: 600px) {
+  .cajaSer1,
+  .cajaSer4,
+  .cajaSer5 {
+    margin: 0px 0px;
+  }
+}
+
+/* -- PAGINA contacto
+  :::::::::::::::::::::::::::::::::::::::::
+  :::::::::::::::::::::::::::::::::::::::::
+  ::::::::::::::::::::::::::::::::::::::::: */
+
+@media (max-width: 600px) {
+  .formPadre {
+    position: relative;
+    padding: 4px;
+    margin: 147px 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .formHijo {
+    width: 100%;
+    position: relative;
+    background-color: rgb(17, 104, 104);
+  }
+}
