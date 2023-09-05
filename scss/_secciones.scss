@@ -72,22 +72,20 @@
   flex-flow: row wrap;
   justify-content: center;
 }
-
+.tituloServi{
+  text-align: center;
+}
 .caja2 {
   padding: 20px;
   margin: 0px;
-  border-radius: 23px;
-  align-items: center;
-}
+display: flex;
+justify-content: center;
+align-items: center;
 
-.tituloServi {
-  text-align: center;
-  margin: 0px 0px;
 }
-
 .parrafoSer {
-  position: relative;
-  top: 80px;
+  padding: 20px;
+  margin: auto;
 }
 /* -- SECCION galería HOME
   ::::::::::::::::::::::::::::::::::::::::: */

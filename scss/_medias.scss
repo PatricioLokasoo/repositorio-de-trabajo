@@ -19,6 +19,13 @@
   }
 }
 @media (max-width: 600px) {
+  .carousel-inner{
+    position: relative;
+    width: 100vw;
+    height: 300px;
+  }
+}
+@media (max-width: 600px) {
   .banner {
     width: 100vw;
     height: 300px;
@@ -31,29 +38,17 @@
 @media (max-width: 600px) {
   .carousel-control-prev,
   .carousel-control-next {
-    background-color: rgb(255, 255, 255);
-    width: 60px;
-    height: 60px;
-    padding: 20px;
-    margin: 145px 20px;
-    border-radius: 99px;
-  }
+display: none;
+}
 }
 @media (max-width: 600px) {
   .caja2 {
-    position: relative;
-    top: 0px;
-  }
-}
-@media (max-width: 600px) {
-  .parrafoSer {
-    position: relative;
-    top: 0px;
+
   }
 }
 @media (max-width: 1000px) {
   .cajaGaleria3 {
-    display: none;
+    display:none !important;
   }
 }
 
