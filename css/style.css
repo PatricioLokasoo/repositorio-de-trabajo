@@ -388,7 +388,7 @@ footer .caja1 .menuRedes {
   ::::::::::::::::::::::::::::::::::::::::: */
 @media (max-width: 600px) {
   .bg-pan-bottom {
-    background-image: url(../imag/principal.png) !important;
+    background-image: url(../imag/principal.jpg) !important;
     background-repeat: cover;
     background-position: center;
   }
@@ -666,7 +666,7 @@ footer .caja1 .menuRedes {
 }
 
 .bannerServicio {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.05), rgba(5, 7, 12, 0.75)), url(../imag/principal.png);
+  background-image: linear-gradient(rgba(5, 7, 12, 0.05), rgba(5, 7, 12, 0.75)), url(../imag/principal.jpg);
   background-position: center;
   width: 100%;
   height: 500px;
@@ -782,7 +782,7 @@ footer .caja1 .menuRedes {
     background-position: center;
   }
   70% {
-    background-image: linear-gradient(rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)), url(../imag/principal.png);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)), url(../imag/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
