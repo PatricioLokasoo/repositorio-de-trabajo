@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  /* border: red 1px solid; */
+  /*border: red 1px solid;*/
   box-sizing: border-box;
 }
 
@@ -102,36 +102,6 @@ header {
   width: 35%;
 }
 
-@media (max-width: 600px) {
-  .logo {
-    width: 50%;
-    position: relative;
-    left: 110px;
-  }
-}
-.colormenu {
-  background-color: #f8f9fa;
-  z-index: 20;
-}
-
-@media (min-width: 600px) {
-  .hamburguer {
-    background-color: rgb(255, 255, 255);
-    margin-top: 0px;
-    border-radius: 99px;
-    border: 0px solid rgb(211, 211, 211);
-    padding: 12px;
-  }
-}
-@media (max-width: 600px) {
-  .hamburguer {
-    background-color: rgb(255, 255, 255);
-    margin-top: -80px;
-    border-radius: 99px;
-    border: 0px solid rgb(211, 211, 211);
-    padding: 12px;
-  }
-}
 .menubar {
   list-style: none;
   display: block;
@@ -141,6 +111,11 @@ header {
   font-size: 1.2rem;
   margin: 0px 16px;
   position: relative;
+}
+
+.colormenu {
+  background-color: #f8f9fa;
+  z-index: 20;
 }
 
 .menubar:after {
@@ -297,8 +272,9 @@ footer .caja1 .menuRedes {
 @media (max-width: 600px) {
   .logo {
     width: 50%;
-    position: relative;
-    left: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 @media all and (max-width: 600px) {
@@ -306,6 +282,28 @@ footer .caja1 .menuRedes {
     display: none;
   }
 }
+@media (min-width: 600px) {
+  .hamburguer {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    border-radius: 99px;
+    border: 0px solid rgb(211, 211, 211);
+    padding: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .hamburguer {
+    background-color: rgb(255, 255, 255);
+    margin-top: -80px;
+    border-radius: 99px;
+    border: 0px solid rgb(211, 211, 211);
+    padding: 12px;
+  }
+}
+/* -- PAGINA home
+  :::::::::::::::::::::::::::::::::::::::::
+  :::::::::::::::::::::::::::::::::::::::::
+  ::::::::::::::::::::::::::::::::::::::::: */
 @media (max-width: 600px) {
   .carousel-item {
     position: relative;
@@ -372,10 +370,34 @@ footer .caja1 .menuRedes {
     margin: 0px 0px;
   }
 }
+/* -- PAGINA galería
+  :::::::::::::::::::::::::::::::::::::::::
+  :::::::::::::::::::::::::::::::::::::::::
+  ::::::::::::::::::::::::::::::::::::::::: */
+@media (max-width: 600px) {
+  .cajaGaleriaPadre {
+    width: 100% !important;
+    margin-top: 150px;
+    padding: 10px;
+    display: block;
+  }
+}
 /* -- PAGINA contacto
   :::::::::::::::::::::::::::::::::::::::::
   :::::::::::::::::::::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::: */
+@media (max-width: 600px) {
+  .bg-pan-bottom {
+    background-image: url(../imag/principal.png) !important;
+    background-repeat: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 600px) {
+  .formPadre {
+    width: 95%;
+  }
+}
 @media (max-width: 600px) {
   .formPadre {
     position: relative;
@@ -597,7 +619,8 @@ footer .caja1 .menuRedes {
 .seccionGaleria {
   width: 100vw;
   height: auto;
-  padding: 80px 0px;
+  padding: 20px 0px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -646,7 +669,7 @@ footer .caja1 .menuRedes {
   background-image: linear-gradient(rgba(5, 7, 12, 0.05), rgba(5, 7, 12, 0.75)), url(../imag/principal.png);
   background-position: center;
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -654,7 +677,7 @@ footer .caja1 .menuRedes {
 
 .servicioCaja {
   width: 100%;
-  height: 400px;
+  height: 500px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -664,6 +687,8 @@ footer .caja1 .menuRedes {
 
 .contentSer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 50px 0px;
   padding: 20px;
 }
@@ -688,12 +713,6 @@ footer .caja1 .menuRedes {
   box-shadow: 0px 9px 54px -16px rgba(0, 0, 0, 0.75);
 }
 
-.cajaSer1,
-.cajaSer4,
-.cajaSer5 {
-  margin: 100px 0px;
-}
-
 /* -- PAGINA contacto
   :::::::::::::::::::::::::::::::::::::::::
   :::::::::::::::::::::::::::::::::::::::::
@@ -714,7 +733,7 @@ footer .caja1 .menuRedes {
   width: 80%;
   position: relative;
   top: 30px;
-  padding: 40px;
+  padding: 0px;
   margin: 180px 0px;
   justify-content: center;
   align-items: center;

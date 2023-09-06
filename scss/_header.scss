@@ -19,37 +19,6 @@ header {
   .logo {
     width: 35%;
   }
-  @media (max-width: 600px) {
-    .logo {
-      width: 50%;
-      position: relative;
-      left: 110px;
-    }
-  }
-  .colormenu {
-    background-color: #f8f9fa;
-    z-index: 20;
-  }
-  @media (min-width: 600px) {
-    .hamburguer {
-      background-color: rgb(255, 255, 255);
-      margin-top: 0px;
-      border-radius: 99px;
-      border: 0px solid rgb(211, 211, 211);
-      padding: 12px;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .hamburguer {
-      background-color: rgb(255, 255, 255);
-      margin-top: -80px;
-      border-radius: 99px;
-      border: 0px solid rgb(211, 211, 211);
-      padding: 12px;
-    }
-  }
-  
   .menubar {
     list-style: none;
     display: block;
@@ -60,7 +29,10 @@ header {
     margin: 0px 16px;
     position: relative;
   }
-  
+  .colormenu {
+    background-color: #f8f9fa;
+    z-index: 20;
+  }
   .menubar:after {
     content: "";
     width: 0;
